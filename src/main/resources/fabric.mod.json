@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "altcheck",
+  "version": "${version}",
+
+  "name": "AltCheck",
+  "description": "AltCheck is focused on privacy and security. It provides tools to manage and verify accounts, with a comprehensive set of features to ease server administration while keeping sensitive data private.",
+  "authors": [ "Cats" ],
+  "contact": {
+    "homepage": "https://cats1337.github.io",
+    "sources": "https://cats1337.github.io/AltCheck"
+  },
+
+  "license": "GNU General Public License v2.0",
+  "icon": "assets/altcheck/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "io.github.cats1337.altcheck.AltCheck"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
